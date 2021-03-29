@@ -1,0 +1,17 @@
+package com.min.map;
+
+import java.util.HashMap;
+
+public class IterationOfHashMap {
+
+	public static void main(String[] args) {
+		 HashMap<String, String> hashmap = new HashMap<String, String>();
+		    hashmap.put("Key1", "Value1");
+		    hashmap.put("Key2", "Value2");
+		    System.out.println("Iterating or looping map using foreach loop");
+		    for(String val:hashmap.keySet()) {
+		    	System.out.println(val+"="+hashmap.get(val));
+		    }
+	}
+
+}

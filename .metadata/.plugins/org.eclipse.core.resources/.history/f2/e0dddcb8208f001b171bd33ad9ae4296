@@ -1,0 +1,17 @@
+package com.min.map;
+
+public class CheckingHashMapSize {
+public static void main(String[] args) {
+	  System.out.println("Is HashMap Empty? "+hashmap.isEmpty());
+	    
+	    
+	    // Adding Key and Value pairs to HashMap
+	    hashmap.put(11,"Apple");
+	    hashmap.put(22,"Banana");
+	    hashmap.put(33,"Mango");
+	    hashmap.put(44,"Pear");
+	    hashmap.put(55,"PineApple");
+	     // Checking again whether HashMap is Empty or not
+	    System.out.println("Is HashMap Empty? "+hashmap.isEmpty());
+}
+}
